@@ -1,0 +1,72 @@
+/* CssNavbar.css */
+
+#Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: green;
+  /* padding: 15px; */
+  width: 100%;
+  position: fixed;
+  margin-top: -90px;
+  font-weight: bolder;
+  /* margin-bottom: 200px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  /* width: 100%; */
+  z-index: 999;
+}
+/* #nav img{
+  width:100%;
+} */
+
+.logo {
+  display: content;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  /* border: 2px solid; */
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+}
+
+#profile #profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#nav button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+#login-btn2 {
+  background-color: #0f0f10;
+  padding: 8px 16px;
+  border-radius: 4px;
+  
+}
+
+#login-btn2:hover {
+background-color: rgb(3, 3, 3);
+color: red
+}
+
+button:hover {
+  opacity: 0.7;
+}
